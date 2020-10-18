@@ -8,6 +8,9 @@ class Kucing:
     def walk(self):
         return self.nama + " is walking"
 
+    def sleep(self):
+        return self.nama = " is sleeping"
+
 
 kucing1 = Kucing("Simba", 3, "Persian")
 
